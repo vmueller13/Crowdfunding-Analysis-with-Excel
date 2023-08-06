@@ -7,10 +7,13 @@ The goal of this project is to organize and analyze a database of previous crowd
 <ins>Processes and Technologies</ins>
 I first wish to modify and analyze the sample-project data and try to uncover market trends. First, I focus on the outcomes of the previous projects by color coding the success or failure and creating a pivot table that counts how many campaigns were successful, failed, cancelled or currently live per category and can be filtered based on country. I repeat this for the outcomes per sub-category. Lastly, I converted the `deadline` and `launched_at` columns from Unix timestamps to a Excel's date format using this formula `=(((A1/60)/60)/24)+DATE(1970,1,1)` and created a pivot table and line graph to show values based on the count of `outcome`, and filters based on `parent category` and `Years`.
 
+![Pivot Table by Category](Images/pivot table by category.png)
 
+![Bar Chart by Category](Images/bar chart by category.png)
 
+![Line Graph by Month](Images/Line Graph by Month.png)
 
-
+![Outcomes Based on Goal](Images/Outcomes Based on Goal.png)
 
 From this analysis, I was able to answer the following questions:
 * Given the provided data, what are three conclusions that we can draw about crowdfunding campaigns?
@@ -21,3 +24,4 @@ From this analysis, I was able to answer the following questions:
   * We could use a pie chart to show the distribution of categories or parent categories or we could also utilize a scatterplot with a trendline to show the trends in the successful or failed campaigns.
 
 <ins>Challenges</ins>
+While I was able to complete most of the asks for this challenge, I struggled with being able to code in the added columns. I tried several variations of the formulas and ended up hard coding in the Category and Subcategory columns. After reviewing the VBA documentation online and reaching out to my TA for support, I have a better understanding of how to complete this task.
