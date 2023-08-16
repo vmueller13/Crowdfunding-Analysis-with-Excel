@@ -1,4 +1,4 @@
-# Module 1 Challenge: Crowdfunding Analysis
+# Crowdfunding Analysis
 
 <ins> Project Overview</ins>
 -----
